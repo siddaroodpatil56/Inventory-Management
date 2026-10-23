@@ -59,5 +59,3 @@ if st.button("Predict Stock Status"):
         st.error("Status: **Stockout Risk**")
 
     st.write(f"Confidence: {np.max(probability)*100:.2f}%")
-
-pip freeze > requirements.txt
